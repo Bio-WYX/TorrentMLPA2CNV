@@ -1,0 +1,16 @@
+[refrence]
+fasta_file = /data/work/yuexing/PKD/TELL-SEQ/hg19/hg19.fasta
+
+[adapter]
+adapter1 = CAACTCCTTGGCTCACAGAACGACATGGCTACGATCCGACTT
+adapter2 = AAGTCGGAGGCCAAGCGGTCTTAGGAAGACAA
+
+[resource]
+threads = 8
+
+[program]
+samtools = samtools
+bgzip = bgzip
+bwa = bwa
+cutadapt = cutadapt
+bamdst = bamdst
